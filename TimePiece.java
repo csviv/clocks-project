@@ -1,5 +1,5 @@
 /**
- * Interface for on object that keeps track of time
+ * Interface for an object that keeps track of time
  * 
  * @author vivianhaile
  */

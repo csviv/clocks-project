@@ -5,11 +5,10 @@ import java.text.DecimalFormat;
  * 
  * @author vivianhaile
  */
-public abstract class Clock implements TimePiece {
-	
+public abstract class Clock implements TimePiece 
+{	
 	protected Time time;
 	private ClockType clockType;
-	//add protected decimal format
 	protected DecimalFormat secFormat; //used by child classes to format display
 	
 	/**
@@ -64,5 +63,4 @@ public abstract class Clock implements TimePiece {
 		time.incrementTime(); 
 		
 	}
-
 }
